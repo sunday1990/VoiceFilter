@@ -15,6 +15,8 @@
 		169A974A203FE7D400AA3F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A9749203FE7D400AA3F06 /* main.m */; };
 		169A9754203FE7D400AA3F06 /* VoiceFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A9753203FE7D400AA3F06 /* VoiceFilterTests.m */; };
 		169A975F203FE7D400AA3F06 /* VoiceFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A975E203FE7D400AA3F06 /* VoiceFilterUITests.m */; };
+		16AD9F5220478CD500E15535 /* VoiceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F5120478CD500E15535 /* VoiceFilter.m */; };
+		16AD9F5520478D2200E15535 /* VoiceTelegraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F5420478D2200E15535 /* VoiceTelegraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		169A975A203FE7D400AA3F06 /* VoiceFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169A975E203FE7D400AA3F06 /* VoiceFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceFilterUITests.m; sourceTree = "<group>"; };
 		169A9760203FE7D400AA3F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AD9F5020478CD500E15535 /* VoiceFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceFilter.h; sourceTree = "<group>"; };
+		16AD9F5120478CD500E15535 /* VoiceFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceFilter.m; sourceTree = "<group>"; };
+		16AD9F5320478D2200E15535 /* VoiceTelegraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceTelegraph.h; sourceTree = "<group>"; };
+		16AD9F5420478D2200E15535 /* VoiceTelegraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceTelegraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		169A9739203FE7D400AA3F06 /* VoiceFilter */ = {
 			isa = PBXGroup;
 			children = (
+				16AD9F4F20478CBA00E15535 /* VoiceFilter */,
 				169A973A203FE7D400AA3F06 /* AppDelegate.h */,
 				169A973B203FE7D400AA3F06 /* AppDelegate.m */,
 				169A973D203FE7D400AA3F06 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				169A9760203FE7D400AA3F06 /* Info.plist */,
 			);
 			path = VoiceFilterUITests;
+			sourceTree = "<group>";
+		};
+		16AD9F4F20478CBA00E15535 /* VoiceFilter */ = {
+			isa = PBXGroup;
+			children = (
+				16AD9F5020478CD500E15535 /* VoiceFilter.h */,
+				16AD9F5120478CD500E15535 /* VoiceFilter.m */,
+				16AD9F5320478D2200E15535 /* VoiceTelegraph.h */,
+				16AD9F5420478D2200E15535 /* VoiceTelegraph.m */,
+			);
+			path = VoiceFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AD9F5520478D2200E15535 /* VoiceTelegraph.m in Sources */,
+				16AD9F5220478CD500E15535 /* VoiceFilter.m in Sources */,
 				169A973F203FE7D400AA3F06 /* ViewController.m in Sources */,
 				169A974A203FE7D400AA3F06 /* main.m in Sources */,
 				169A973C203FE7D400AA3F06 /* AppDelegate.m in Sources */,
