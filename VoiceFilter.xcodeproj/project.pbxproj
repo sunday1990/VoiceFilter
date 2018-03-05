@@ -84,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168DFEEC204D8FE300A3EE18 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
 		169A972E203FE7D400AA3F06 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +114,7 @@
 		169A9739203FE7D400AA3F06 /* VoiceFilter */ = {
 			isa = PBXGroup;
 			children = (
+				168DFEEC204D8FE300A3EE18 /* Nearby */,
 				16AD9F4F20478CBA00E15535 /* VoiceFilter */,
 				169A973A203FE7D400AA3F06 /* AppDelegate.h */,
 				169A973B203FE7D400AA3F06 /* AppDelegate.m */,
